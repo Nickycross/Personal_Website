@@ -1,0 +1,78 @@
+* {
+    font-family: 'Krona One', sans-serif;
+ /*   background-color: #f4f5f7;*/
+}
+h1 {
+    color: #3f779d;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Krona One', sans-serif;
+    font-size: 90px;
+}
+
+body {
+    background-image: url('');
+}
+
+h3 {
+    font-family: 'Krona One', sans-serif;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.mainbody {
+    text-align: center;
+    padding-left: 500px;
+    padding-right: 500px;
+}
+
+.btn {
+    align-items: center;
+    border-radius: 100px;
+    padding: 20px 60px;
+    border: none;
+    color: white;
+    background-color: rgb(57, 145, 185);
+    display: flex;
+    margin-left: 800px;
+    font-size: 20px;
+}
+
+.btn:hover { 
+    -webkit-animation: hover 1200ms linear 2 alternate;
+    animation: hover 1200ms linear 2 alternate;
+  }
+
+.footer,
+.push {
+      height: 50px;
+}
+  
+footer {
+      position: static;
+      bottom: 0;
+      left: 36%;
+}
+  
+footer ul {
+      margin: 0 38%;
+      padding: 0 20px;
+      padding-bottom: 10px;
+      list-style: none;
+      width: 100%;
+}
+  
+footer ul li {
+      display: inline-block;
+      margin-left: 60px;
+      margin-top: 0 auto;
+      padding-top: 15px;
+      padding-bottom: 10px;
+}
+.stretch {
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0
+}
