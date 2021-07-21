@@ -1,0 +1,189 @@
+* {
+    font-family:'Montserrat', sans-serif;
+}
+h1 {
+    color: rgb(37, 36, 36);
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.container_topbar {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background:#252525;
+}
+
+/*This code block below is for when you float 2 different things on left and right, 
+it helps to the bar to not be hidden in the back of the 2 elements*/
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/* If you put a logo, unlock this code
+.logo {
+    float: left;
+    padding; 10px 0;
+}*/
+
+nav {
+    float: right;
+}
+
+nav ul {
+    margin: 0 auto;
+    padding: 0, auto;
+    padding-bottom: 10px;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block; /*We use inline-block because is more versatile than float*/
+    margin-left: 70px;
+    margin-top: 0 auto;
+    padding-top: 15px;
+    padding-bottom: 10px;
+
+    position: relative;
+}
+
+nav ul li a {
+    color: #F7F0F0;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav a:hover {
+    color: whitesmoke;
+}
+
+nav a::before {
+    content: '';
+    display: block;
+    height: 3px;
+    width: 100%;
+    background-color: #F7F0F0;
+
+    position: absolute;
+    top: 0;
+    width: 0%;
+    transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+    width: 100%;
+}
+
+p {
+    text-align: center;
+
+}
+
+body {
+    margin: 0;
+    font-weight: 400;
+}
+
+
+/*PROJECTS*/
+.projects h2 {
+    text-align: center;
+}
+
+.projects {
+    background-color: orange;
+    margin: auto;
+    position: relative;
+}
+
+.row1 img {
+    background-color: blueviolet;
+    position: relative;
+}
+.row2 img {
+    background-color: blueviolet;
+    position: relative;
+}
+.row3 img {
+    background-color: blueviolet;
+    position: relative;
+}
+
+.wrapper {
+    min-height: 100%;
+    /* Equal to height of footer */
+    /* But also accounting for potential margin-bottom of last child */
+    margin-bottom: -50px;
+}
+
+.row1 {
+    background-color: brown;
+}
+
+.row2 {
+    background-color: darkblue;
+}
+
+.row3 {
+    background-color: darkgreen;
+}
+/* Create two equal columns that floats next to each other */
+.OnlineShop {
+    float: left;
+    width: 100%;
+    padding: 10px;
+
+}
+  
+/* Clear floats after the columns */
+.row1:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.row2:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.row3:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+  
+.footer,
+.push {
+    height: 50px;
+}
+
+footer {
+    position: static;
+    bottom: 0;
+    left: 36%;
+}
+
+footer ul {
+    margin: 0 38%;
+    padding: 0 20px;
+    padding-bottom: 10px;
+    list-style: none;
+    width: 100%;
+}
+
+footer ul li {
+    display: inline-block;
+    margin-left: 60px;
+    margin-top: 0 auto;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
