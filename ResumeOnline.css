@@ -1,14 +1,9 @@
 * {
-    font-family:'Montserrat', sans-serif;
-}
-h1 {
-    color: rgb(37, 36, 36);
-    font-weight: bold;
-    text-align: center;
     font-family: 'Montserrat', sans-serif;
-    
+    margin: 0;
+    padding: 0;
 }
-/*Top Nav Bar*/
+
 .container_topbar {
     width: 80%;
     margin: 0 auto;
@@ -81,84 +76,6 @@ nav a::before {
 
 nav a:hover::before {
     width: 100%;
-}
-/*End CSS Top Nav Bar*/
-p {
-    text-align: center;
-
-}
-
-body {
-    margin: 0;
-    font-weight: 400;
-}
-
-
-/*PROJECTS*/
-.projects h2 {
-    text-align: center;
-}
-
-.projects {
-    background-color: orange;
-    margin: auto;
-    position: relative;
-}
-
-.row1 img {
-    background-color: blueviolet;
-    position: relative;
-}
-.row2 img {
-    background-color: blueviolet;
-    position: relative;
-}
-.row3 img {
-    background-color: blueviolet;
-    position: relative;
-}
-
-.wrapper {
-    min-height: 100%;
-    /* Equal to height of footer */
-    /* But also accounting for potential margin-bottom of last child */
-    margin-bottom: -50px;
-}
-
-.row1 {
-    background-color: brown;
-}
-
-.row2 {
-    background-color: darkblue;
-}
-
-.row3 {
-    background-color: darkgreen;
-}
-/* Create two equal columns that floats next to each other */
-.OnlineShop {
-    float: left;
-    width: 100%;
-    padding: 10px;
-
-}
-  
-/* Clear floats after the columns */
-.row1:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-.row2:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-.row3:after {
-    content: "";
-    display: table;
-    clear: both;
 }
 
 /*Bottom Media bar*/  
