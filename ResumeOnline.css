@@ -77,8 +77,25 @@ nav a::before {
 nav a:hover::before {
     width: 100%;
 }
+/*Body (Text + Images)*/
+.text1 {
+    float: left;
+}
 
+.img1 {
+    float: right;
+    border-radius: 2px;
+}
 
+.text2 {
+    float: right;
+}
+
+.img2 {
+    float: left;
+    border-radius: 2px;
+}
+/*END Body*/
 
 /*Bottom Media bar*/  
 .footer,
