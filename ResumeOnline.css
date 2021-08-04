@@ -95,15 +95,13 @@ h1 {
     position: relative;
     margin: 0 50px;
     width: 50%;
-    background-color: red;
+    border-style: solid;
 }
 
 .img1 {
     float: right;
-    border-radius: 2px;
     position: relative;
     width: 50%;
-    background-color: black;
 }
 
 .secondRow {
