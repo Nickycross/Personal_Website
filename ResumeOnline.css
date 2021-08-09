@@ -65,7 +65,6 @@ nav a::before {
     height: 3px;
     width: 100%;
     background-color: #F7F0F0;
-
     position: absolute;
     top: 0;
     width: 0%;
