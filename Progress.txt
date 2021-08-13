@@ -2,3 +2,5 @@
 
 Working on the 'Download' page. Trying to create a link that let you download my
 personal resume. Starting to learn about FTP clients.
+Probably I'm gonna use FileZilla for upload the PDF file to the server and then
+put it in the link from 'Download Tab'.
