@@ -1,0 +1,4 @@
+08/13/2021
+
+Working on the 'Download' page. Trying to create a link that let you download my
+personal resume. Starting to learn about FTP clients.
